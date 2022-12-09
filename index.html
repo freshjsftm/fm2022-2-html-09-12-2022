@@ -1,30 +1,151 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HTML</title>
-</head>
-<body>
-  <h1>Main title page</h1>
-
-  <!-- ol>li*4{item} -->
-  <ol>
-    <li>item</li>
-    <li>item
-      <!-- ul>li*3{sub item $} -->
-      <ul>
-        <li>sub item 1</li>
-        <li>sub item 2</li>
-        <li>sub item 3</li>
-      </ul>
-    </li>
-    <li>item</li>
-    <li>item</li>
-  </ol>
-
-  <h2>heading 2</h2>
-  <p>Lorem <em><strong>ipsum dolor</strong></em>  sit amet <i>consectetur</i> adipisicing elit. Corporis illo molestiae nisi officiis <span>voluptate</span>  ratione at rem quis, quam, quas eligendi magnam deserunt unde tenetur nihil ab veniam quae voluptas accusantium odit excepturi voluptatum recusandae accusamus quibusdam? Eligendi atque qui sit voluptas! Neque, animi aliquam.</p>
-  <p>Omnis, blanditiis. Et culpa expedita optio quis. Voluptas vitae libero at! Optio cupiditate est sit hic natus quis quidem quo, minus magnam perferendis, fugiat incidunt! Fuga adipisci, deserunt illo quos nihil ab eaque. Ducimus incidunt consequuntur deserunt vel tempora eius, in consectetur harum consequatur aperiam?</p>
-</body>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML</title>
+  </head>
+  <body>
+    <!-- (header>nav>ul>li*5>a{link $})+main+footer -->
+    <header>
+      <nav>
+        <ol>
+          <li>
+            out links
+            <ul>
+              <li><a href="https://fb.com" target="_blank">link 1</a></li>
+              <li>
+                <a
+                  href="https://refactoring.guru/uk/design-patterns/catalog"
+                  target="_blank"
+                  >refactoring</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            insert site links
+            <ul>
+              <li><a href="#">home</a></li>
+              <li><a href="./pages/about.html">about</a></li>
+            </ul>
+          </li>
+          <li>
+            insert page links
+            <!-- ol>li*3>a{link to article $} -->
+            <!-- ol>li*3>a[href="#article$"]{link to article $} -->
+            <ol>
+              <li><a href="#article1">link to article 1</a></li>
+              <li><a href="#article2">link to article 2</a></li>
+              <li><a href="#article3">link to article 3</a></li>
+            </ol>
+          </li>
+        </ol>
+      </nav>
+    </header>
+    <main>
+      <!-- section>h1{Main title section}+article*3>h2{title article $}+p*3>lorem55 -->
+      <!-- section>h1{Main title section}+article#article$*3>h2{title article $}+p*3>lorem55 -->
+      <section>
+        <h1>Main title section</h1>
+        <article id="article1">
+          <h2>title article 1</h2>
+          <img src="https://refactoring.guru.com/images/patterns/content/abstract-factory/abstract-factory-uk.png" alt="абстрактна фабрика">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, saepe
+            tenetur corporis repudiandae voluptas corrupti nemo harum tempora!
+            Illo quam quod, esse, odit earum dolore adipisci enim inventore nam
+            quibusdam dolores maxime, tempora ipsa nulla qui temporibus.
+            Incidunt dolores facere deserunt aspernatur minus placeat. Vero ipsa
+            dolorum reiciendis quisquam fugiat minima labore. Maxime, dolorem
+            quo.
+          </p>
+          <p>
+            Eos sequi quasi doloremque, commodi nihil laudantium omnis eius
+            ipsum dolorem corporis nostrum perferendis
+            <img src="./assets/images/logo.png" alt="logo freshcode" width="15">
+            rerum, voluptatibus
+            tempore eligendi ex blanditiis earum minus autem. Vel a dolorum eius
+            exercitationem. Neque praesentium repudiandae ad dignissimos vitae,
+            iure molestiae earum cum iste nemo alias unde nam fuga distinctio
+            aliquid commodi mollitia facere quisquam? Maxime sequi molestias
+            dolore ex.
+          </p>
+          <p>
+            Recusandae omnis dolores veritatis voluptatibus voluptates,
+            molestiae asperiores neque soluta doloremque non cupiditate,
+            possimus fugit nihil esse cumque numquam nemo eum. Nostrum velit
+            laudantium sequi officia optio at dolores ducimus alias commodi ut
+            aspernatur, nulla, blanditiis dicta tenetur sunt! In illum assumenda
+            consequatur eum ab? Temporibus atque ut aliquam dicta distinctio,
+            excepturi vel nostrum beatae.
+          </p>
+        </article>
+        <article id="article2">
+          <h2>title article 2</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut iure
+            blanditiis aliquid amet illo adipisci. Blanditiis reiciendis,
+            perferendis provident fuga quod modi voluptates sequi sed mollitia
+            alias quo maxime! Itaque, corporis sed. Temporibus laudantium
+            repellendus expedita explicabo delectus ullam eveniet, magnam sunt
+            harum maxime cum nemo minima recusandae, corporis accusamus aliquam
+            nisi? Nihil, consequatur veritatis.
+          </p>
+          <p>
+            Necessitatibus consequatur est nobis excepturi aperiam similique
+            ipsa earum! Incidunt maiores asperiores beatae commodi architecto
+            quia earum consequuntur saepe adipisci dolores officiis in
+            praesentium perferendis laudantium quisquam, veritatis dolore sed
+            voluptatibus sunt ut repellendus cupiditate reprehenderit voluptatum
+            ipsam? Molestias, exercitationem quae enim laboriosam obcaecati
+            dolor. Reprehenderit sed autem ducimus a eaque labore molestias
+            ipsam perspiciatis.
+          </p>
+          <p>
+            Eaque reprehenderit aliquam nobis vero sequi dolor ipsa odit non
+            impedit autem necessitatibus sunt aperiam facilis dicta iusto
+            laborum tenetur porro, rerum maiores, totam eum adipisci
+            perspiciatis accusamus? Harum pariatur id mollitia cum laudantium
+            eaque consequuntur nulla sunt temporibus molestias, odio iste ullam
+            porro incidunt cumque reprehenderit accusamus commodi officia
+            ratione voluptatem ad laborum? Reprehenderit?
+          </p>
+        </article>
+        <article id="article3">
+          <h2>title article 3</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+            consectetur unde consequatur eum quidem dignissimos praesentium
+            aperiam magni temporibus maiores voluptas, necessitatibus
+            consequuntur sapiente, ut in placeat reprehenderit quo expedita
+            asperiores, fuga officia blanditiis. Vitae nemo quibusdam suscipit
+            voluptatem facere odit reprehenderit tenetur maiores molestias,
+            dolorum excepturi minus. Ipsum similique provident natus
+            perspiciatis aperiam. Quae!
+          </p>
+          <p>
+            Eos ex reprehenderit mollitia minus, vel unde! Cumque dicta
+            consequatur impedit eveniet quasi, nisi veritatis laboriosam.
+            Veritatis ipsum error ratione odio quisquam excepturi autem at
+            mollitia perspiciatis, maxime quos recusandae cum vitae non nulla,
+            eligendi dolores laudantium doloribus, facere quo? Culpa et sit aut?
+            Nulla eaque quibusdam et adipisci cumque hic, laudantium error
+            nostrum! Consequatur.
+          </p>
+          <p>
+            Inventore quasi tempora eligendi doloremque nostrum voluptates qui
+            fuga. Nam sapiente velit sint omnis, et labore repellat explicabo
+            saepe maxime consectetur autem nihil maiores hic, nesciunt tenetur
+            ut ipsa, qui suscipit. Unde aspernatur natus voluptas autem et
+            laborum a nesciunt dignissimos mollitia tenetur, doloribus ullam,
+            modi ex maiores enim libero totam error soluta? Explicabo, facilis.
+          </p>
+        </article>
+      </section>
+    </main>
+    <footer>&copy; myname 2022 
+      <a href="#">top</a>
+    </footer>
+  </body>
 </html>
